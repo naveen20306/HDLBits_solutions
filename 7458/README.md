@@ -11,7 +11,7 @@ You may choose to:
 OR  
 - Declare "four wires" as intermediate signals for the outputs of the AND gates and use those in the final OR outputs.
 
-For extra practice, try "both ways".
+For extra practice,try "both ways".
 
 ## 🎯 Objective
 - Understand how to model a real IC using basic logic gates.
