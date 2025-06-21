@@ -31,3 +31,4 @@ For extra practice, try "both ways".
 ---
 
 ✅ This is a foundational logic-building problem that introduces how real-world ICs can be recreated in Verilog using a combination of simple gates.
+
