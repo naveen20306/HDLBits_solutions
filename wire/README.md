@@ -12,7 +12,9 @@ Create a Verilog module with one input and one output that behaves like a simple
 - Wires are **directional** in Verilog (input ➡️ output).
 - Use `assign out = in;` for a continuous connection.
 
+### 🖼️ Diagram
+![Wire Diagram](https://hdlbits.01xz.net/mw/images/7/77/Wire.png)
+
 ---
 
 ✅ This is a basic introductory problem that teaches you how to connect ports using wires in Verilog.
-
