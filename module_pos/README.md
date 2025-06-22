@@ -1,29 +1,30 @@
+```markdown
 # Module pos – Instantiating a Submodule Using Positional Port Mapping
 
-## Overview
+## 🧠 Overview
 
 This exercise continues the exploration of **module instantiation** in Verilog, with a focus on **connecting ports by position**. It reinforces hierarchical design concepts and highlights how positional connections are made between top-level and submodules.
 
-## Functional Requirements
+## 🔧 Functional Requirements
 
-- You are provided with a submodule named `mod_a` defined as:
+You are provided with a submodule named `mod_a` defined as:
 
-  ```verilog
-  module mod_a (output, output, input, input, input, input);
-  ```
+```verilog
+module mod_a (output, output, input, input, input, input);
+```
 
-- Your task is to instantiate this module **once** in the top-level module and connect its ports **by position** to the following top-level signals, in the specified order:
+Your task is to instantiate this module **once** in the top-level module and connect its ports **by position** to the following top-level signals, in the specified order:
 
-  1. `out1` → first output
-  2. `out2` → second output
-  3. `a` → first input
-  4. `b` → second input
-  5. `c` → third input
-  6. `d` → fourth input
+1. `out1` → first output  
+2. `out2` → second output  
+3. `a` → first input  
+4. `b` → second input  
+5. `c` → third input  
+6. `d` → fourth input  
 
 This exercise demonstrates the positional method of structural modeling, where the connection order strictly follows the submodule’s port declaration.
 
-## Key Concepts
+## 📚 Key Concepts
 
 - **Module Instantiation**:
   - A core practice in hierarchical hardware design.
@@ -38,17 +39,18 @@ This exercise demonstrates the positional method of structural modeling, where t
   - Supports design abstraction and modular development.
   - Encourages reusability and clarity in large-scale hardware systems.
 
-## Diagram
+## 🖼️ Diagram
 
 Visual reference of signal-to-port connections:  
 ![Module Positional Diagram](https://hdlbits.01xz.net/mw/images/b/b7/Module_pos.png)
 
-## Applications
+## 💡 Applications
 
-- Building and integrating reusable logic components
-- Practicing structured design using positional mapping
-- Understanding the limitations and benefits of positional connections in real-world hardware projects
+- Building and integrating reusable logic components  
+- Practicing structured design using positional mapping  
+- Understanding the limitations and benefits of positional connections in real-world hardware projects  
 
-## Keywords
+## 🔑 Keywords
 
 Verilog, Module Instantiation, Positional Mapping, Hierarchical Design, HDLBits, Port Ordering
+```
